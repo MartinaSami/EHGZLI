@@ -88,7 +88,7 @@ class _ReservationInfoState extends State<ReservationInfo> {
                                   padding: const EdgeInsets.symmetric(
                                       vertical: 5.0, horizontal: 5.0),
                                   child: Text(
-                                    "Number of seats: " + document['Seats'],
+                                    "Number of seats: " + document['Seats'].toString(),
                                     style: TextStyle(
                                         color: Colors.black54,
                                         fontSize: 17,

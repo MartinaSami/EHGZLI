@@ -11,7 +11,7 @@ class SplashPage extends StatefulWidget {
 class SplashPageState extends State<SplashPage> {
   void navigationToNextPage() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => RestaurantsPage()));
+        context, MaterialPageRoute(builder: (context) => OnBoardingScreen()));
     // Navigator.pushReplacement(context, '/OnBoarding');
   }
 
